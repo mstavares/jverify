@@ -14,7 +14,6 @@ The API uses java spring-boot which is running inside of a docker container, in 
 
 ```docker
 docker-compose up
-
 ```
 
 ## / request example (POST)
