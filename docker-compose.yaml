@@ -1,0 +1,6 @@
+jverify:
+  image: hub.caixamagica.pt/wallid/jverify:latest
+  ports:
+    - 9000:9000
+  environment:
+    - KYC_CONFIG=prod.properties
