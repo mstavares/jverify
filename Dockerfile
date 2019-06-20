@@ -1,4 +1,4 @@
-FROM maven
+FROM openjdk:8-alpine
 EXPOSE 9000
 RUN mkdir jverify
 WORKDIR jverify
