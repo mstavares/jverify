@@ -45,21 +45,12 @@ The route which is used to verifiy a certain identity / and uses application/jso
     "reason": "NotAfter: Tue Feb 27 00:00:00 UTC 2018"
 }
 ```
-### [Error] Expired Certificate example response
+### [Error] Wallet Address signature verification
 
 ```json
 {
     "verificationSuccessful": false,
-    "reason": "NotAfter: Tue Feb 27 00:00:00 UTC 2018"
-}
-```
-
-### [Error] Expired Certificate example response
-
-```json
-{
-    "verificationSuccessful": false,
-    "reason": "NotAfter: Tue Feb 27 00:00:00 UTC 2018"
+    "reason": "Wallet address signature verification failed."
 }
 ```
 
